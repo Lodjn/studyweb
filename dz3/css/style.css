@@ -10,34 +10,32 @@ body{
     color: #303030;
 }
 .heading {
-    color: black;
     font-size: 18px;
     font-weight: 400;
     background: #eaeaea; 
 }
-.opis {
+.about {
     color:  #707070;
     font-size: 14px;
     font-style: italic;
     line-height: 16px;
 }
-.podopis {
+.descryption {
     color: #484343;
     font-size: 16px;
     font-weight: 400;
     line-height: 24px;
-    text-align: left;
 }
 .char li {
     font-style: italic;
     font-size: 16px;
     list-style-type:circle;
-    color: #5C585C;
+    color:darkslategrey;
 }
 p input {
     font-size: 25px;
     text-align: center;
-    font-style: normal;
+    font-style:oblique;
     color:#C7BDBD;
     height: 50px;
     width: 350px;
@@ -45,4 +43,8 @@ p input {
 textarea{
     height: 200px;
     width: 450px;
+}
+.img {
+    border-color:yellow;
+    border-style:solid;
 }
