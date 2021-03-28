@@ -1,0 +1,141 @@
+body {
+    background-color: #f8f8f8
+}
+
+.menu li {
+    font-size: 30px;
+    list-style-type: none;
+    display: inline;
+    float: right;
+    margin: 60px 5px 5px;
+
+}
+
+.logo {
+    margin: 0px 0px 0px 10px;
+}
+
+.menu li a {
+    color: #303030;
+}
+
+.heading {
+    font-size: 18px;
+    font-weight: 400;
+    background: #eaeaea;
+}
+
+.about {
+    color: #707070;
+    font-size: 14px;
+    font-style: italic;
+    line-height: 16px;
+}
+
+.descryption {
+    color: #484343;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+.char li {
+    font-style: italic;
+    font-size: 16px;
+    list-style-type: circle;
+    color: darkslategrey;
+}
+
+p input {
+    font-size: 25px;
+    text-align: center;
+    font-style: oblique;
+    color: #C7BDBD;
+    height: 50px;
+    width: 350px;
+}
+
+textarea {
+    height: 200px;
+    width: 450px;
+}
+
+.img {
+    float: left;
+    border-color: yellow;
+    border-style: solid;
+}
+
+.menu li a:hover {
+    color: cornflowerblue;
+}
+
+.email:focus {
+    background-color: darkmagenta;
+    color: chartreuse;
+}
+
+.text p input,
+textarea {
+    text-transform: capitalize;
+}
+
+.img:hover {
+    border-color: #f8f8f8;
+}
+
+.about:first-letter,
+.descryption:first-letter {
+    font-family: fantasy;
+    font-size: 25px;
+}
+
+.tabl {
+    border-style: solid;
+    border-color: dimgray;
+}
+
+.container {
+    width: 800px;
+    margin: 0 auto;
+}
+
+header {
+    background: url(../images/kek.jpg);
+    height: 100px;
+}
+
+footer {
+    height: 100px;
+    width: 800px;
+    background-color: darkgray;
+}
+
+footer p {
+    float: right;
+    margin: 10px 10px 0px 0px;
+}
+
+.about1 {
+    margin: 0px 0px 210px 360px;
+}
+
+.cen,
+button {
+    margin: 0px 120px 20px 10px;
+    float: left;
+    display: inline-block;
+}
+
+button:hover {
+    background-color: chartreuse;
+}
+
+button:active {
+    background-color: fuchsia;
+}
+
+.flex {
+    display: flex;
+    justify-content: space-around;
+}
