@@ -1,8 +1,38 @@
 body {
     background: #f8f8f8;
 }
+.container {
+margin: 0 200px;
+}
+.header {
+    position: relative;
+    height: 265px;
+    margin: 0 auto;
+}
+.header-name {
+position: absolute;
+    top: 40px;
+    left: 180px;
+    font-size: 24px;
+    color: #06c5ff;
+    font-weight: bold;
+}
+.header-img1 {
+    position: absolute;
+    text-align: center;
+
+}
+.header-img2 {
+    position: absolute;
+    width: 100%;
+
+}
 .main-menu{
     list-style: none;
+    position: absolute;
+    display: inline-block;
+    left: 500px;
+    margin-right: 10px;
 }
 .main-menu li a {
     color: chocolate;
@@ -10,6 +40,11 @@ body {
     font-style: italic;
     text-decoration: none;
     list-style-type: none;
+
+}
+.main-menu li {
+    display: inline-block;
+    padding: 0 5px;
 }
 .main-menu li a:hover {
     color: darkred;
@@ -59,16 +94,58 @@ table td {
 }
 .image_form {
     width: 400px;
+    height: 300px;
     border: 4px solid cornflowerblue;
 }
 .image_form:hover {
     border-color: transparent;
 }
+.float {
+    width: 100%;
+float: left;
+}
+.float-img {
+    float: left;
+}
+.float-text {
+    float: none;
+}
+.product-buy {
+    background: rgb(157,213,58);
+    background: -moz-linear-gradient(top,  rgba(157,213,58,1) 0%, rgba(161,213,79,1) 50%, rgba(128,194,23,1) 51%, rgba(124,188,10,1) 100%);
+    background: -webkit-linear-gradient(top,  rgba(157,213,58,1) 0%,rgba(161,213,79,1) 50%,rgba(128,194,23,1) 51%,rgba(124,188,10,1) 100%);
+    background: linear-gradient(to bottom,  rgba(157,213,58,1) 0%,rgba(161,213,79,1) 50%,rgba(128,194,23,1) 51%,rgba(124,188,10,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#9dd53a', endColorstr='#7cbc0a',GradientType=0 );
+    display: block;
+    float: right;
+    font-size: 24px;
+    text-decoration: none;
+    color: royalblue;
+    padding: 15px 20px;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+.product-buy:hover {
+    background: rgb(180,227,145);
+    background: -moz-linear-gradient(top,  rgba(180,227,145,1) 0%, rgba(97,196,25,1) 50%, rgba(180,227,145,1) 100%);
+    background: -webkit-linear-gradient(top,  rgba(180,227,145,1) 0%,rgba(97,196,25,1) 50%,rgba(180,227,145,1) 100%);
+    background: linear-gradient(to bottom,  rgba(180,227,145,1) 0%,rgba(97,196,25,1) 50%,rgba(180,227,145,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#b4e391', endColorstr='#b4e391',GradientType=0 );
+}
+.product-buy:active{
+    background: rgb(167,207,223);
+    background: -moz-linear-gradient(top,  rgba(167,207,223,1) 0%, rgba(35,83,138,1) 100%);
+    background: -webkit-linear-gradient(top,  rgba(167,207,223,1) 0%,rgba(35,83,138,1) 100%);
+    background: linear-gradient(to bottom,  rgba(167,207,223,1) 0%,rgba(35,83,138,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a7cfdf', endColorstr='#23538a',GradientType=0 );
+
+}
 .footer {
     background: darkolivegreen;
     height: 100px;
-    text-align: center;
+    text-align: right;
     font-weight: bold;
+    padding: 15px 15px 0 0;
 }
 .kratkoe_opis:first-letter,
 .kratkoe_podr:first-letter {
@@ -76,4 +153,20 @@ table td {
     font-size: 30px;
     font-family: "Times New Roman";
     font-weight: bold;
+}
+.catalog {
+   /* display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;*/
+    float: left;
+}
+.catalog-setka1,
+.catalog-setka2,
+.catalog-setka3,
+.catalog-setka4,
+.catalog-setka5{
+    float: left;
+    margin: 0 15px 60px 0;
+    border: 2px solid lightgray;
 }
