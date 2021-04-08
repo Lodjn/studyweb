@@ -2,17 +2,19 @@ body {
     background-color: #f8f8f8
 }
 
+.menu {
+    float: right;
+}
+
 .menu li {
+    display: inline-block;
     font-size: 30px;
     list-style-type: none;
-    display: inline;
-    float: right;
-    margin: 60px 5px 5px;
-
+    margin: 40px 10px 0 0;
 }
 
 .logo {
-    margin: 0px 0px 0px 10px;
+    margin: 0 0 0 10px;
 }
 
 .menu li a {
@@ -107,22 +109,21 @@ header {
 
 footer {
     height: 100px;
-    width: 800px;
     background-color: darkgray;
 }
 
 footer p {
     float: right;
-    margin: 10px 10px 0px 0px;
+    margin: 10px 10px 0 0;
 }
 
 .about1 {
-    margin: 0px 0px 210px 360px;
+    margin: 0 0 210px 360px;
 }
 
 .cen,
 button {
-    margin: 0px 120px 20px 10px;
+    margin: 0 120px 20px 10px;
     float: left;
     display: inline-block;
 }
@@ -138,4 +139,7 @@ button:active {
 .flex {
     display: flex;
     justify-content: space-around;
+}
+::-webkit-scrollbar { 
+display: none; 
 }

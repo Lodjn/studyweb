@@ -1,65 +1,70 @@
 <html>
+
 <head>
     <link rel="stylesheet" type="text/css" href="css/style.css">
     <meta charset="UTF-8">
     <title>Контакты</title>
 </head>
 
-<body class="container">
-    <header>
-        <img class="logo" border="0" align="left" src="images/imk.png" alt="logo" height="100" width="100">
-        <ul class="menu">
-            <li>
-                <a href="index.html">Главная</a>
-            </li>
-            <li>
-                <a href="shop.html">Каталог</a>
-            </li>
-            <li>
-                <a href="contacts.html">Контакты</a>
-            </li>
-        </ul>
-    </header>
-    <hr>
-    <h1>Контакты</h1>
-    <form action="contacts.html">
-        <fieldset class="text">
-            <legend>Напишите нам:</legend>
+<body>
+    <div class="container">
+        <header>
+            <img class="logo" border="0" align="left" src="images/imk.png" alt="logo" height="100" width="100">
+            <ul class="menu">
+                <li>
+                    <a href="index.html">Главная</a>
+                </li>
+                <li>
+                    <a href="shop.html">Каталог</a>
+                </li>
+                <li>
+                    <a href="contacts.html">Контакты</a>
+                </li>
+            </ul>
+        </header>
+        <hr>
+        <h1>Контакты</h1>
+        <form action="contacts.html">
+            <fieldset class="text">
+                <legend>Напишите нам:</legend>
+                <p>
+                    <input type="text" name="name" id="1" placeholder="Имя">
+                </p>
+                <p>
+                    <input type="text" name="lastname" id="4" placeholder="Фамилия">
+                </p>
+                <p>
+                    <input class="email" type="text" name="email" id="3" placeholder="Email">
+                </p>
+                <p>
+                    <label for="5">Тема обращения</label><br>
+                    <select name="theme" id="5">
+                        <option value="покупка">Покупка</option>
+                        <option value="продажа">Продажа</option>
+                        <option value="другое">Другое</option>
+                    </select>
+                </p>
+                <label for="2">Ваше обращение</label><br>
+                <textarea name="paper" id="2" cols="50" rows="10"></textarea>
+            </fieldset>
+        </form>
+        <h2>Адрес</h2>
+        <div>
             <p>
-                <input type="text" name="name" id="1" placeholder="Имя">
+                <strong>Телефон:</strong>
+                88005553535
             </p>
-            <p>
-                <input type="text" name="lastname" id="4" placeholder="Фамилия">
-            </p>
-            <p>
-                <input class="email" type="text" name="email" id="3" placeholder="Email">
-            </p>
-            <p>
-                <label for="5">Тема обращения</label><br>
-                <select name="theme" id="5">
-                    <option value="покупка">Покупка</option>
-                    <option value="продажа">Продажа</option>
-                    <option value="другое">Другое</option>
-                </select>
-            </p>
-            <label for="2">Ваше обращение</label><br>
-            <textarea name="paper" id="2" cols="50" rows="10"></textarea>
-        </fieldset>
-    </form>
-    <h2>Адрес</h2>
-    <div>
-        <p>
-            <strong>Телефон:</strong>
-            88005553535
-        </p>
-        <p><strong>Адрес:</strong>Россия, Ярославская область, Ярославль,пр. Октября, д 78</p>
-        <p><strong>Email:</strong>https://yarbereg.com</p>
+            <p><strong>Адрес:</strong>Россия, Ярославская область, Ярославль,пр. Октября, д 78</p>
+            <p><strong>Email:</strong>https://yarbereg.com</p>
+        </div>
+        <div class="map">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1067.4496746507818!2d39.84837625835509!3d57.65019789527578!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46b2919c8f255555%3A0x48ca31eded8e10b2!2z0J3QsNC00YPQstC90YvQtSDQu9C-0LTQutC4INC40Lcg0J_QktCl!5e0!3m2!1sru!2sru!4v1613677149133!5m2!1sru!2sru" width="100%" height="374px" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+        </div>
+        <hr>
+        <footer>
+            <p>&copy;Все права защищены</p>
+        </footer>
     </div>
-    <div class="map">
-        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1067.4496746507818!2d39.84837625835509!3d57.65019789527578!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46b2919c8f255555%3A0x48ca31eded8e10b2!2z0J3QsNC00YPQstC90YvQtSDQu9C-0LTQutC4INC40Lcg0J_QktCl!5e0!3m2!1sru!2sru!4v1613677149133!5m2!1sru!2sru" width="100%" height="374px" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
-    </div>
-    <hr>
-    <footer>
-        <p>&copy;Все права защищены</p>
-    </footer>
-</body></html>
+</body>
+
+</html>
