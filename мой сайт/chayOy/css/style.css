@@ -2,37 +2,22 @@ body {
     background: #f8f8f8;
 }
 .container {
-margin: 0 200px;
+    width: 960px;
+    margin: 0 200px;
 }
 .header {
-    position: relative;
-    height: 265px;
-    margin: 0 auto;
+    display: flex;
+    height: 180px;
+    background: url("../../image/чайник.jpg");
 }
 .header-name {
-position: absolute;
-    top: 40px;
-    left: 180px;
-    font-size: 24px;
+    font-size: 20px;
     color: #06c5ff;
     font-weight: bold;
+    margin: 90px 0 0 10px;
 }
-.header-img1 {
-    position: absolute;
-    text-align: center;
-
-}
-.header-img2 {
-    position: absolute;
-    width: 100%;
-
-}
-.main-menu{
-    list-style: none;
-    position: absolute;
-    display: inline-block;
-    left: 500px;
-    margin-right: 10px;
+.main-menu {
+    margin-left: auto;
 }
 .main-menu li a {
     color: chocolate;
@@ -40,11 +25,11 @@ position: absolute;
     font-style: italic;
     text-decoration: none;
     list-style-type: none;
-
 }
 .main-menu li {
     display: inline-block;
     padding: 0 5px;
+    margin-right: auto;
 }
 .main-menu li a:hover {
     color: darkred;
@@ -155,17 +140,9 @@ float: left;
     font-weight: bold;
 }
 .catalog {
-   /* display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: flex-start;*/
     float: left;
 }
-.catalog-setka1,
-.catalog-setka2,
-.catalog-setka3,
-.catalog-setka4,
-.catalog-setka5{
+.catalog-setka {
     float: left;
     margin: 0 15px 60px 0;
     border: 2px solid lightgray;
